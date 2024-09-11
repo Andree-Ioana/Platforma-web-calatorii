@@ -1,0 +1,28 @@
+.settings {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  .sidebar {
+    flex-basis: 30%;
+    height: 100%;
+    max-width: 200px;
+    // background: red;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    border-right: 1px solid #333;
+    button {
+      margin-bottom: 10px;
+      font-size: 18px;
+      border: none;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 10px;
+      background-color: transparent !important;
+      &:hover {
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.2);
+        border-bottom: 2px solid #ccc;
+      }
+    }
+  }
+}
